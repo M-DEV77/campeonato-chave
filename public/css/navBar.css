@@ -1,0 +1,17 @@
+.navContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 8vh;
+  width: 100vw;
+  background-color: bisque;
+  transition: 100ms;
+}
+.navContainer a{
+  margin-left: 2vw;
+  text-decoration: none;
+}
+.navContainer a:hover{
+ color: rgb(255, 0, 76);
+
+}

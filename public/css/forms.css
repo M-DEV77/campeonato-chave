@@ -1,0 +1,23 @@
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.inputGrupo{
+  padding: 2.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40vw;
+}
+
+.inputGrupo label{
+  width: 15vw;
+}
+
+.inputGrupo input{
+  width: 25vw;
+  height: 20px;
+}
