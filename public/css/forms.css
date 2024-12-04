@@ -5,7 +5,7 @@ form{
   
 }
 .inputGrupo{
-  padding: 2.6px;
+  padding-top: 8px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -20,4 +20,38 @@ form{
 .inputGrupo input{
   width: 25vw;
   height: 20px;
+}
+@media only screen and (max-width: 1400px) {
+  .inputGrupo{
+    width: 90vw;
+  }
+
+  .inputGrupo label{
+    width: 30vw;
+  }
+  
+  .inputGrupo input{
+    width: 60vw;
+    
+  }
+  @media only screen and (max-width: 700px) {
+    .inputGrupo{
+      width: 90vw;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+    }
+  
+    .inputGrupo label{
+      width: 90vw;
+      padding-bottom: 3px;
+    }
+    
+    .inputGrupo input{
+      width: 90vw;
+      
+    }
+    
+  }
+
 }

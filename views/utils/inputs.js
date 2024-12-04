@@ -17,5 +17,11 @@ const inputCofig = [
     previa: 'Digite a quantidade de jurado',
     tipo: 'number',
   },
+  {
+    nome: 'fotoDaCapa',
+    label: 'Foto de fundo do chave',
+    previa: 'Digite a quantidade de jurado',
+    tipo: 'file',
+  },
 ];
 module.exports = inputCofig;
